@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "authenticationType": "jwt",
+    "baseName": "micro",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "3.0.0"
+      }
+    ],
+    "clientFramework": "no",
+    "clientTestFrameworks": null,
+    "clientTheme": null,
+    "creationTimestamp": 1730102389093,
+    "entities": [],
+    "jhipsterVersion": "8.5.0",
+    "microfrontend": null,
+    "microfrontends": [],
+    "prodDatabaseType": "postgresql",
+    "serverPort": "8080",
+    "skipClient": true,
+    "withAdminUi": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "baseName": "myMicroservice",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "3.0.0"
+      }
+    ],
+    "clientFramework": "no",
+    "clientTestFrameworks": null,
+    "clientTheme": null,
+    "creationTimestamp": 1730114584719,
+    "entities": [],
+    "jhipsterVersion": "8.5.0",
+    "microfrontend": null,
+    "microfrontends": [],
+    "monorepository": true,
+    "prodDatabaseType": "postgresql",
+    "serverPort": "8081",
+    "skipClient": true,
+    "skipCommitHook": true,
+    "withAdminUi": null
+  }
+}

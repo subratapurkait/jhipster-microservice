@@ -1,0 +1,21 @@
+name: mymicroservice
+services:
+  app:
+    build: ..
+    environment:
+      - BACKEND_ENV=prod
+    depends_on:
+      postgresql:
+        condition: service_healthy
+  postgresql:
+    extends:
+      file: ./postgresql.yml
+      service: postgresql
+  consul:
+    extends:
+      file: ./consul.yml
+      service: consul
+  consul-config-loader:
+    extends:
+      file: ./consul.yml
+      service: consul-config-loader
